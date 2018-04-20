@@ -7,5 +7,7 @@ defmodule DesignhubapiWeb.Router do
 
   scope "/api", DesignhubapiWeb do
     pipe_through :api
+    
+    resources "/users", UserController
   end
 end
