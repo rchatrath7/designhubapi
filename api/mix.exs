@@ -38,7 +38,8 @@ defmodule Designhubapi.Mixfile do
       {:phoenix_ecto, "~> 3.2"},
       {:mariaex, ">= 0.0.0"},
       {:gettext, "~> 0.11"},
-      {:cowboy, "~> 1.0"}
+      {:cowboy, "~> 1.0"}, 
+      {:comeonin, "~>4.1.1"}
     ]
   end
 
